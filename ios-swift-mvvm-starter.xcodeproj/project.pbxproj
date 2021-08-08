@@ -8,13 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		AC7DD21126BD89BA002AAA38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD21026BD89BA002AAA38 /* AppDelegate.swift */; };
-		AC7DD21326BD89BA002AAA38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD21226BD89BA002AAA38 /* SceneDelegate.swift */; };
-		AC7DD21526BD89BA002AAA38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD21426BD89BA002AAA38 /* ViewController.swift */; };
-		AC7DD21826BD89BA002AAA38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7DD21626BD89BA002AAA38 /* Main.storyboard */; };
 		AC7DD21A26BD89BB002AAA38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7DD21926BD89BB002AAA38 /* Assets.xcassets */; };
 		AC7DD21D26BD89BB002AAA38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7DD21B26BD89BB002AAA38 /* LaunchScreen.storyboard */; };
 		AC7DD22826BD89BB002AAA38 /* ios_swift_mvvm_starterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD22726BD89BB002AAA38 /* ios_swift_mvvm_starterTests.swift */; };
 		AC7DD23326BD89BB002AAA38 /* ios_swift_mvvm_starterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD23226BD89BB002AAA38 /* ios_swift_mvvm_starterUITests.swift */; };
+		AC7DD25A26BD8D32002AAA38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD21226BD89BA002AAA38 /* SceneDelegate.swift */; };
+		AC7DD25F26BD8E2E002AAA38 /* AppConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD25E26BD8E2E002AAA38 /* AppConfiguration.swift */; };
+		AC7DD26426BD8E68002AAA38 /* AppFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD26326BD8E68002AAA38 /* AppFlowCoordinator.swift */; };
+		AC7DD27626BD8FC2002AAA38 /* UsersAPIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD27526BD8FC2002AAA38 /* UsersAPIEndpoints.swift */; };
+		AC7DD2A526BD93BC002AAA38 /* Users.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC7DD2A426BD93BC002AAA38 /* Users.storyboard */; };
+		AC7DD2AA26BD93D5002AAA38 /* UsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2A926BD93D5002AAA38 /* UsersViewController.swift */; };
+		AC7DD2AF26BD93E0002AAA38 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2AE26BD93E0002AAA38 /* UserDetailViewController.swift */; };
+		AC7DD2B426BD940D002AAA38 /* BaseUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2B326BD940D002AAA38 /* BaseUsersViewController.swift */; };
+		AC7DD2B926BD9474002AAA38 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2B826BD9474002AAA38 /* UsersViewModel.swift */; };
+		AC7DD2C426BD95B9002AAA38 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2C326BD95B9002AAA38 /* Users.swift */; };
+		AC7DD2CF26BD993A002AAA38 /* UserLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2CE26BD993A002AAA38 /* UserLocalDataManager.swift */; };
+		AC7DD2D826BD9B6E002AAA38 /* CoreDataStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2D626BD9B6E002AAA38 /* CoreDataStorage.xcdatamodeld */; };
+		AC7DD2EA26BD9D52002AAA38 /* UsersRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2E926BD9D52002AAA38 /* UsersRemoteDataManager.swift */; };
+		AC7DD2F626BE3A95002AAA38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2F526BE3A95002AAA38 /* BaseViewController.swift */; };
+		AC7DD2FB26BE3CED002AAA38 /* UsersModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD2FA26BE3CED002AAA38 /* UsersModule.swift */; };
+		AC7DD31C26BE472D002AAA38 /* UsersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD31B26BE472D002AAA38 /* UsersResponse.swift */; };
+		AC7DD36526BE5E57002AAA38 /* DataTransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD36126BE5E57002AAA38 /* DataTransferService.swift */; };
+		AC7DD36626BE5E57002AAA38 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD36226BE5E57002AAA38 /* NetworkService.swift */; };
+		AC7DD36726BE5E57002AAA38 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD36326BE5E57002AAA38 /* APIEndpoint.swift */; };
+		AC7DD36826BE5E57002AAA38 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD36426BE5E57002AAA38 /* NetworkConfig.swift */; };
+		AC7DD37726BE8547002AAA38 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD37626BE8547002AAA38 /* UserTableViewCell.swift */; };
+		AC7DD37F26BE8572002AAA38 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7DD37E26BE8572002AAA38 /* BaseTableViewCell.swift */; };
+		ACE6925826BED16A0034D1CA /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6925726BED16A0034D1CA /* CoreDataStorage.swift */; };
+		ACE6926026BED88A0034D1CA /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6925F26BED88A0034D1CA /* NetworkTask.swift */; };
+		ACE6926626BED8DE0034D1CA /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6926526BED8DE0034D1CA /* Cancellable.swift */; };
+		ACE6926B26BED8F00034D1CA /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6926A26BED8F00034D1CA /* ConnectionError.swift */; };
+		ACE6927026BEE85B0034D1CA /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6926F26BEE85B0034D1CA /* AppDIContainer.swift */; };
+		ACE6927926BEF7420034D1CA /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6927826BEF7420034D1CA /* Observable.swift */; };
+		ACE6928E26BF05920034D1CA /* CacheableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6928D26BF05920034D1CA /* CacheableImageView.swift */; };
+		ACE6929626BF0F7F0034D1CA /* UserProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6929526BF0F7F0034D1CA /* UserProfileTableViewCell.swift */; };
+		ACE6929B26BF0F9B0034D1CA /* UserActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6929A26BF0F9B0034D1CA /* UserActivityTableViewCell.swift */; };
+		ACE692A026BF0FA50034D1CA /* UserBioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE6929F26BF0FA50034D1CA /* UserBioTableViewCell.swift */; };
+		ACE692A526BF1EB40034D1CA /* TransparentNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE692A426BF1EB40034D1CA /* TransparentNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +68,6 @@
 		AC7DD20D26BD89BA002AAA38 /* ios-swift-mvvm-starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-swift-mvvm-starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7DD21026BD89BA002AAA38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC7DD21226BD89BA002AAA38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC7DD21426BD89BA002AAA38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC7DD21726BD89BA002AAA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC7DD21926BD89BB002AAA38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC7DD21C26BD89BB002AAA38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC7DD21E26BD89BB002AAA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,38 @@
 		AC7DD22E26BD89BB002AAA38 /* ios-swift-mvvm-starterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-swift-mvvm-starterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7DD23226BD89BB002AAA38 /* ios_swift_mvvm_starterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_swift_mvvm_starterUITests.swift; sourceTree = "<group>"; };
 		AC7DD23426BD89BB002AAA38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC7DD25E26BD8E2E002AAA38 /* AppConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfiguration.swift; sourceTree = "<group>"; };
+		AC7DD26326BD8E68002AAA38 /* AppFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlowCoordinator.swift; sourceTree = "<group>"; };
+		AC7DD27526BD8FC2002AAA38 /* UsersAPIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersAPIEndpoints.swift; sourceTree = "<group>"; };
+		AC7DD2A426BD93BC002AAA38 /* Users.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Users.storyboard; sourceTree = "<group>"; };
+		AC7DD2A926BD93D5002AAA38 /* UsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewController.swift; sourceTree = "<group>"; };
+		AC7DD2AE26BD93E0002AAA38 /* UserDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
+		AC7DD2B326BD940D002AAA38 /* BaseUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUsersViewController.swift; sourceTree = "<group>"; };
+		AC7DD2B826BD9474002AAA38 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		AC7DD2C326BD95B9002AAA38 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		AC7DD2CE26BD993A002AAA38 /* UserLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLocalDataManager.swift; sourceTree = "<group>"; };
+		AC7DD2D726BD9B6E002AAA38 /* GitUsers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GitUsers.xcdatamodel; sourceTree = "<group>"; };
+		AC7DD2E926BD9D52002AAA38 /* UsersRemoteDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRemoteDataManager.swift; sourceTree = "<group>"; };
+		AC7DD2F526BE3A95002AAA38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		AC7DD2FA26BE3CED002AAA38 /* UsersModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersModule.swift; sourceTree = "<group>"; };
+		AC7DD31B26BE472D002AAA38 /* UsersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersResponse.swift; sourceTree = "<group>"; };
+		AC7DD36126BE5E57002AAA38 /* DataTransferService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransferService.swift; sourceTree = "<group>"; };
+		AC7DD36226BE5E57002AAA38 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		AC7DD36326BE5E57002AAA38 /* APIEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		AC7DD36426BE5E57002AAA38 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		AC7DD37626BE8547002AAA38 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		AC7DD37E26BE8572002AAA38 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		ACE6925726BED16A0034D1CA /* CoreDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorage.swift; sourceTree = "<group>"; };
+		ACE6925F26BED88A0034D1CA /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
+		ACE6926526BED8DE0034D1CA /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
+		ACE6926A26BED8F00034D1CA /* ConnectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
+		ACE6926F26BEE85B0034D1CA /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
+		ACE6927826BEF7420034D1CA /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		ACE6928D26BF05920034D1CA /* CacheableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheableImageView.swift; sourceTree = "<group>"; };
+		ACE6929526BF0F7F0034D1CA /* UserProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileTableViewCell.swift; sourceTree = "<group>"; };
+		ACE6929A26BF0F9B0034D1CA /* UserActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityTableViewCell.swift; sourceTree = "<group>"; };
+		ACE6929F26BF0FA50034D1CA /* UserBioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBioTableViewCell.swift; sourceTree = "<group>"; };
+		ACE692A426BF1EB40034D1CA /* TransparentNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +159,13 @@
 		AC7DD20F26BD89BA002AAA38 /* ios-swift-mvvm-starter */ = {
 			isa = PBXGroup;
 			children = (
-				AC7DD21026BD89BA002AAA38 /* AppDelegate.swift */,
-				AC7DD21226BD89BA002AAA38 /* SceneDelegate.swift */,
-				AC7DD21426BD89BA002AAA38 /* ViewController.swift */,
-				AC7DD21626BD89BA002AAA38 /* Main.storyboard */,
-				AC7DD21926BD89BB002AAA38 /* Assets.xcassets */,
+				AC7DD32E26BE4E72002AAA38 /* Core */,
+				AC7DD24326BD8A9E002AAA38 /* Application */,
+				AC7DD2F426BE3A53002AAA38 /* Bases */,
+				AC7DD24626BD8B1E002AAA38 /* Domain */,
+				AC7DD27326BD8FAB002AAA38 /* DataManager */,
+				AC7DD24926BD8B51002AAA38 /* Resources */,
 				AC7DD21B26BD89BB002AAA38 /* LaunchScreen.storyboard */,
-				AC7DD21E26BD89BB002AAA38 /* Info.plist */,
 			);
 			path = "ios-swift-mvvm-starter";
 			sourceTree = "<group>";
@@ -126,6 +186,180 @@
 				AC7DD23426BD89BB002AAA38 /* Info.plist */,
 			);
 			path = "ios-swift-mvvm-starterUITests";
+			sourceTree = "<group>";
+		};
+		AC7DD24326BD8A9E002AAA38 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD21226BD89BA002AAA38 /* SceneDelegate.swift */,
+				AC7DD21026BD89BA002AAA38 /* AppDelegate.swift */,
+				AC7DD25E26BD8E2E002AAA38 /* AppConfiguration.swift */,
+				AC7DD26326BD8E68002AAA38 /* AppFlowCoordinator.swift */,
+				ACE6926F26BEE85B0034D1CA /* AppDIContainer.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		AC7DD24626BD8B1E002AAA38 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2A026BD9386002AAA38 /* Users */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		AC7DD24926BD8B51002AAA38 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD21E26BD89BB002AAA38 /* Info.plist */,
+				AC7DD21926BD89BB002AAA38 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC7DD27326BD8FAB002AAA38 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2C226BD95B1002AAA38 /* Entities */,
+				AC7DD27D26BD9047002AAA38 /* Local */,
+				AC7DD27426BD8FB9002AAA38 /* Remote */,
+				AC7DD2D626BD9B6E002AAA38 /* CoreDataStorage.xcdatamodeld */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		AC7DD27426BD8FB9002AAA38 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD31A26BE471D002AAA38 /* Mapping */,
+				AC7DD27526BD8FC2002AAA38 /* UsersAPIEndpoints.swift */,
+				AC7DD2E926BD9D52002AAA38 /* UsersRemoteDataManager.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		AC7DD27D26BD9047002AAA38 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2CE26BD993A002AAA38 /* UserLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		AC7DD2A026BD9386002AAA38 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2A326BD93A5002AAA38 /* Views */,
+				AC7DD2A226BD939B002AAA38 /* ViewModels */,
+				AC7DD2A126BD9390002AAA38 /* Controllers */,
+				AC7DD2B326BD940D002AAA38 /* BaseUsersViewController.swift */,
+				AC7DD2FA26BE3CED002AAA38 /* UsersModule.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		AC7DD2A126BD9390002AAA38 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2A926BD93D5002AAA38 /* UsersViewController.swift */,
+				AC7DD2AE26BD93E0002AAA38 /* UserDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AC7DD2A226BD939B002AAA38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2B826BD9474002AAA38 /* UsersViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AC7DD2A326BD93A5002AAA38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD37526BE852B002AAA38 /* TableViewCells */,
+				AC7DD2A426BD93BC002AAA38 /* Users.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC7DD2C226BD95B1002AAA38 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2C326BD95B9002AAA38 /* Users.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AC7DD2F426BE3A53002AAA38 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD2F526BE3A95002AAA38 /* BaseViewController.swift */,
+				AC7DD37E26BE8572002AAA38 /* BaseTableViewCell.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		AC7DD31A26BE471D002AAA38 /* Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD31B26BE472D002AAA38 /* UsersResponse.swift */,
+			);
+			path = Mapping;
+			sourceTree = "<group>";
+		};
+		AC7DD32E26BE4E72002AAA38 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ACE6926426BED8CB0034D1CA /* Common */,
+				ACE6925626BED1590034D1CA /* LocalStorage */,
+				AC7DD36026BE5E57002AAA38 /* Network */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AC7DD36026BE5E57002AAA38 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD36126BE5E57002AAA38 /* DataTransferService.swift */,
+				AC7DD36226BE5E57002AAA38 /* NetworkService.swift */,
+				AC7DD36326BE5E57002AAA38 /* APIEndpoint.swift */,
+				AC7DD36426BE5E57002AAA38 /* NetworkConfig.swift */,
+				ACE6925F26BED88A0034D1CA /* NetworkTask.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AC7DD37526BE852B002AAA38 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				AC7DD37626BE8547002AAA38 /* UserTableViewCell.swift */,
+				ACE6929526BF0F7F0034D1CA /* UserProfileTableViewCell.swift */,
+				ACE6929A26BF0F9B0034D1CA /* UserActivityTableViewCell.swift */,
+				ACE6929F26BF0FA50034D1CA /* UserBioTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		ACE6925626BED1590034D1CA /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				ACE6925726BED16A0034D1CA /* CoreDataStorage.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		ACE6926426BED8CB0034D1CA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ACE6926526BED8DE0034D1CA /* Cancellable.swift */,
+				ACE6926A26BED8F00034D1CA /* ConnectionError.swift */,
+				ACE6927826BEF7420034D1CA /* Observable.swift */,
+				ACE6928D26BF05920034D1CA /* CacheableImageView.swift */,
+				ACE692A426BF1EB40034D1CA /* TransparentNavigationBar.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +466,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC7DD21D26BD89BB002AAA38 /* LaunchScreen.storyboard in Resources */,
+				AC7DD2A526BD93BC002AAA38 /* Users.storyboard in Resources */,
 				AC7DD21A26BD89BB002AAA38 /* Assets.xcassets in Resources */,
-				AC7DD21826BD89BA002AAA38 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +492,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7DD21526BD89BA002AAA38 /* ViewController.swift in Sources */,
+				ACE6927026BEE85B0034D1CA /* AppDIContainer.swift in Sources */,
+				ACE6928E26BF05920034D1CA /* CacheableImageView.swift in Sources */,
+				AC7DD2EA26BD9D52002AAA38 /* UsersRemoteDataManager.swift in Sources */,
+				AC7DD2FB26BE3CED002AAA38 /* UsersModule.swift in Sources */,
+				AC7DD37F26BE8572002AAA38 /* BaseTableViewCell.swift in Sources */,
+				AC7DD2D826BD9B6E002AAA38 /* CoreDataStorage.xcdatamodeld in Sources */,
+				AC7DD37726BE8547002AAA38 /* UserTableViewCell.swift in Sources */,
+				AC7DD36826BE5E57002AAA38 /* NetworkConfig.swift in Sources */,
+				ACE6929B26BF0F9B0034D1CA /* UserActivityTableViewCell.swift in Sources */,
+				AC7DD36526BE5E57002AAA38 /* DataTransferService.swift in Sources */,
+				AC7DD2AA26BD93D5002AAA38 /* UsersViewController.swift in Sources */,
+				ACE6926626BED8DE0034D1CA /* Cancellable.swift in Sources */,
+				ACE6926026BED88A0034D1CA /* NetworkTask.swift in Sources */,
+				AC7DD2AF26BD93E0002AAA38 /* UserDetailViewController.swift in Sources */,
+				AC7DD2C426BD95B9002AAA38 /* Users.swift in Sources */,
+				AC7DD2B426BD940D002AAA38 /* BaseUsersViewController.swift in Sources */,
 				AC7DD21126BD89BA002AAA38 /* AppDelegate.swift in Sources */,
-				AC7DD21326BD89BA002AAA38 /* SceneDelegate.swift in Sources */,
+				ACE692A526BF1EB40034D1CA /* TransparentNavigationBar.swift in Sources */,
+				AC7DD2B926BD9474002AAA38 /* UsersViewModel.swift in Sources */,
+				AC7DD27626BD8FC2002AAA38 /* UsersAPIEndpoints.swift in Sources */,
+				ACE6929626BF0F7F0034D1CA /* UserProfileTableViewCell.swift in Sources */,
+				ACE6925826BED16A0034D1CA /* CoreDataStorage.swift in Sources */,
+				AC7DD36626BE5E57002AAA38 /* NetworkService.swift in Sources */,
+				AC7DD2CF26BD993A002AAA38 /* UserLocalDataManager.swift in Sources */,
+				AC7DD26426BD8E68002AAA38 /* AppFlowCoordinator.swift in Sources */,
+				AC7DD25F26BD8E2E002AAA38 /* AppConfiguration.swift in Sources */,
+				AC7DD2F626BE3A95002AAA38 /* BaseViewController.swift in Sources */,
+				ACE6927926BEF7420034D1CA /* Observable.swift in Sources */,
+				ACE692A026BF0FA50034D1CA /* UserBioTableViewCell.swift in Sources */,
+				AC7DD25A26BD8D32002AAA38 /* SceneDelegate.swift in Sources */,
+				AC7DD36726BE5E57002AAA38 /* APIEndpoint.swift in Sources */,
+				ACE6926B26BED8F00034D1CA /* ConnectionError.swift in Sources */,
+				AC7DD31C26BE472D002AAA38 /* UsersResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +560,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AC7DD21626BD89BA002AAA38 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC7DD21726BD89BA002AAA38 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC7DD21B26BD89BB002AAA38 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -587,6 +843,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC7DD2D626BD9B6E002AAA38 /* CoreDataStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC7DD2D726BD9B6E002AAA38 /* GitUsers.xcdatamodel */,
+			);
+			currentVersion = AC7DD2D726BD9B6E002AAA38 /* GitUsers.xcdatamodel */;
+			path = CoreDataStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC7DD20526BD89BA002AAA38 /* Project object */;
 }
